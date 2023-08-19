@@ -17,3 +17,4 @@ A ROM patcher made in HTML5.
 * unzips files automatically
 * made in Vanilla JS
 * can be run in any modern web browser, including mobile
+* support pre-defined patches (in code or in URL hash)
