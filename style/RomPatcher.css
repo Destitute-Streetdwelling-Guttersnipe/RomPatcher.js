@@ -11,7 +11,7 @@ body{
 	cursor:default;
 	line-height:1.8;
 	background-color:#31343a;
-	color:#3c3c3c;
+	color:#c2bdb5;
 	-moz-user-select:none;
 	-webkit-user-select: none;
 	-ms-user-select:none;
@@ -154,7 +154,7 @@ hr{border:none;border-top:1px dotted #bbb;margin:15px 0}
 
 
 
-.tab{background-color:#f9fafa;padding:30px 15px;border-radius: 3px}
+.tab{background-color:#22343d;padding:30px 15px;border-radius: 3px}
 #tab1{display:none}
 
 .buttons{
