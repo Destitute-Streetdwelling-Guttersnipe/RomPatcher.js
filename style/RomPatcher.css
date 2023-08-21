@@ -10,7 +10,7 @@ body{
 	font:15px 'Open Sans',sans-serif;
 	cursor:default;
 	line-height:1.8;
-	background-color:#31343a;
+	background-color:#232529;
 	color:#c2bdb5;
 	-moz-user-select:none;
 	-webkit-user-select: none;
@@ -154,7 +154,7 @@ hr{border:none;border-top:1px dotted #bbb;margin:15px 0}
 
 
 
-.tab{background-color:#22343d;padding:30px 15px;border-radius: 3px}
+.tab{background-color:#1b2e37;padding:30px 15px;border-radius: 3px}
 #tab1{display:none}
 
 .buttons{
@@ -173,7 +173,8 @@ input[type=file],select{
 	outline:0;
 	border:none;
 	border-radius:3px;
-	background-color:#edefef;
+	background-color:#31343a;
+	color:inherit;
 }
 input[type=file].w100, select.w100{width:100%}
 input[type=file]{padding:6px 10px}
@@ -338,8 +339,8 @@ button.no-text.with-icon:before{margin-right:0px}
 .dialog{
 	vertical-align:middle;
 	margin:auto;
-	background-color:white;
-	color:#999;
+	background-color:#484848;
+	color:#aaa;
 	box-sizing:border-box;
 	box-shadow:rgba(0,0,0,.7) 0 0 24px;
 	padding:20px;
@@ -381,14 +382,14 @@ button.no-text.with-icon:before{margin-right:0px}
 	overflow-y:auto;
 }
 #zip-dialog-file-list li{
-	color:#3c3c3c;
+	color:#ddd;
 	padding: 2px 8px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 #zip-dialog-file-list li:hover{
-	background-color:#eee;
+	background-color:#999;
 	cursor:pointer;
 	color: black;
 	border-radius: 3px;
