@@ -464,7 +464,7 @@ addEvent(window,'load',function(){
 		// enable app setting 'patchFileInUrl' when clicking on a 'disabled' switch
 		AppSettings.patchFileInUrl = this.className==='switch disabled';
 		this.className = AppSettings.patchFileInUrl ? 'switch enabled' : 'switch disabled';
-		el('patch-file-in-url').style.display = 'inline';
+		el('patch-file-in-url').style.display = 'none';
 		AppSettings.save();
 	});
 
