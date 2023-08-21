@@ -21,6 +21,7 @@ const LOCALIZATION={
 		'original_rom':				'Original ROM:',
 		'modified_rom':				'Modified ROM:',
 		'patch_type':				'Patch type:',
+		'patch_file_in_url':		'Patch file in URL:',
 		'creating_patch':			'Creating patch...',
 
 		'error_crc_input':			'Source ROM checksum mismatch',
