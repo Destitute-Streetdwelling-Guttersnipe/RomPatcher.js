@@ -192,7 +192,7 @@ input[type=file].enabled:hover,select.enabled:hover{background-color:#dee1e1}
 input[type=file].disabled,select.disabled{background-color:transparent}
 
 #patch-file-in-url {
-	display: 'none';
+	display: none;
 	width: 86%;
 	padding: 6px;
 	color: inherit;
