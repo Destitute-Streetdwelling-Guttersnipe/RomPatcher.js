@@ -57,12 +57,11 @@
 		// user will only need to provide the ROM file, as patches will be fetched from your server!
 		// a crc (or various crcs) can be provided for source files, allowing old formats like IPS to have validation!
 		try {
+			// example: #{"PATCHER":[{"name":"a_patcher_name","file":"data:;base64,VVBTMQAgboMAIG6D+pUXwPqVF8AybecD"}]}
 			var paramStr = decodeURI(location.hash.slice(1))
 			if (paramStr && paramStr[0]==='{') {
 				var params = JSON.parse(paramStr)
-				if (params.PATCHER && params.PATCHER.length) {
-					var CUSTOM_PATCHER = params.PATCHER
-				}
+				var CUSTOM_PATCHER = params.PATCHER
 			}
 		} catch(ex) {
 			console.warn('Error: cannot parse parameters from URL hash', ex)
