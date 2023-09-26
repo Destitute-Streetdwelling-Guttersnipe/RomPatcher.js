@@ -17,6 +17,11 @@ A ROM patcher made in HTML5.
 * unzips files automatically
 * made in Vanilla JS
 * can be run in any modern web browser, including mobile
+* support pre-defined patches
+
+## Difference from marcrobledo/RomPatcher.js
+
+* support pre-defined patches in URL hash (such as `#{"PATCHER":[{"name":"a_patcher_name","file":"data:;base64,VVBTMQAgboMAIG6D+pUXwPqVF8AybecD"}]}`)
 
 
 
