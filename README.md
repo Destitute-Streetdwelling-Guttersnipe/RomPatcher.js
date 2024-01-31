@@ -21,7 +21,7 @@ A ROM patcher made in HTML5.
 
 ## Difference from marcrobledo/RomPatcher.js
 
-* support pre-defined patches in URL hash (such as `#{"PATCHER":[{"name":"a_patcher_name","file":"data:;base64,VVBTMQAgboMAIG6D+pUXwPqVF8AybecD"}]}`)
+* support pre-defined patches in URL hash (such as `#{"PATCHER":[{"name":"Boaty-McBoatface","file":"data:;base64,VVBTMQAgboMAIG6D+pUXwPqVF8AybecD"}]}`)
 
 
 
